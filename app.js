@@ -1,284 +1,274 @@
-var obj = [
-    {
-        questtion: "What is the capital of France?",
-        a: "Madrid",
-        b: "Berlin",
-        c: "Paris",
-        d: "Rome",
-        answer: "Paris",
+var mobileCompanies = {
+    iphone: {
+        iphone15: {
+            image: "images/iphone-15.jpeg",
+            name: "iphone 15",
+            about: "iPhone 15 Pro is the first iPhone to support USB 3, 6 for a huge leap in data transfer speeds and faster pro workflows than ever before.",
+            manufacter: "Manufactured by iphone",
+            battery: "Battery Timing Approx 2 days",
+            price: "12 Lakh in PKR",
+        },
+        iphone14: {
+            image: "images/iphone-14.jpg",
+            name: "iphone 14",
+            about: "A new, larger 6.7-inch size joins the popular 6.1-inch design, featuring a new dual-camera system, Crash Detection & much more.",
+            manufacter: "Manufactured by iphone",
+            battery: "Battery Timing Approx 2.5 days",
+            price: "11 Lakh in PKR",
+        },
     },
 
-    {
-        questtion: " Which planet is known as the Red Planet",
-        a: "Venus",
-        b: "Jupiter",
-        c: "Mars",
-        d: "Saturn",
-        answer: "Mars",
-    },   
-    
-    {
-        questtion: "How many continents are there on Earth?",
-        a: 5,
-        b: 6,
-        c: 8,
-        d: 7,
-        answer: 7,
-    },  
-    
-    {
-        questtion: "Who wrote the play Romeo and Juliet?",
-        a: "Charles Dickens",
-        b: "William Wordsworth",
-        c: "William Shakespeare",
-        d: "Jane Austen",
-        answer: "William Shakespeare",
-    }, 
-    
-    {
-        questtion: "What is the chemical symbol for gold?",
-        a: "Go",
-        b: "Ag",
-        c: "Ge",
-        d: "Au",
-        answer: "Au",
-    },  
-    
-    {
-        questtion: "What is the largest mammal in the world?",
-        a: "Elephant",
-        b: "Giraffe",
-        c: "Lion",
-        d: "Blue Whale",
-        answer: "Blue Whale",
-    }, 
+    samsung: {
+        S202Simple: {
+            image: "images/samsung-s202-simple.jpeg",
+            name: "S202 Simple",
+            about: "The Galaxy S22 is better at taking photos in the dark. The Galaxy S22 and S22 Plus have both gotten a noticeable camera upgrade.",
+            manufacter: "Manufactured by samsung",
+            battery: "Battery Timing Approx 2 days",
+            price: "10,200 in PKR",
+        },
+        S202Ultra: {
+            image: "images/samsung-s202-ultra.jpeg",
+            name: "S2 02 Ultra",
+            about: "The Galaxy S2 02 is better at taking photos in the dark. The Galaxy S22 and S22 Plus have both gotten camera.",
+            manufacter: "Manufactured by samsung",
+            battery: "Battery Timing Approx 3 days",
+            price: "89,000 in PKR"
+        },
+    },
 
-    {
-        questtion: "What is the symbol for the element oxygen on the periodic table?",
-        a: "Oz",
-        b: "Ox",
-        c: "O",
-        d: "O2",
-        answer: "O",
-    }, 
+    sony: {
+        "Xperia 5V": {
+            image: "images/sony-experia-5v-compact.jpg",
+            name: "Xperia 5V",
+            about: "The new Sony Xperia 5 V retains all the best features of previous Xperia phones, like a 4K high refresh rate display",
+            manufacter: "Manufactured by sony",
+            battery: "Battery Timing Approx 3 days",
+            price: "98,000 in PKR"
+        },
 
-    {
-        questtion: "Which gas do plants absorb from the atmosphere during photosynthesis?",
-        a: "O2",
-        b: "CO2",
-        c: "N2",
-        d: "H2",
-        answer: "CO2",
-    }, 
+        Xperia10IV: {
+            image: "images/sony-experia-10-IV.jpeg",
+            name: "Xperia 10 IV",
+            about: "The Xperia 10 IV also boasts a triple camera setup. This includes a 12-megapixel main camera, 8MP ultrawide sensor.",
+            manufacter: "Manufactured by samsung",
+            battery: "Battery Timing Approx 1.5 days",
+            price: "109,000 in PKR"
+        },
+    },
 
-    {
-        questtion: " Who is known as the father of modern physics?",
-        a: " Isaac Newton",
-        b: "Galileo Galilei",
-        c: "Albert Einstein",
-        d: "Stephen Hawking",
-        answer: "Albert Einstein",
-    }, 
+    LG: {
+        LGUltraTab: {
+            image: "images/lg-ulta-tab.jpeg",
+            name: "LG Ultra Tab",
+            about: "LG Ultra Tab Android tablet. Announced Aug 2022. Features 10.35″ display,Snapdragon 680 4G chipset.",
+            manufacter: "Manufactured by LG",
+            battery: "Battery Timing Approx 1.5 days",
+            price: "91,000 in PKR"
+        },
 
-    {
-        questtion: "What is the smallest prime number?",
-        a: 1,
-        b: 2,
-        c: 3,
-        d: 0,
-        answer: 2,
-    }, 
-    
-    {
-        questtion: "What is the largest organ in the human body?",
-        a: "Heart",
-        b: "Brain",
-        c: "Lungs",
-        d: "Skin",
-        answer: "Skin",
-    }, 
+        LGW41Pro: {
+            image: "images/lg-w41-pro.jpeg",
+            name: "LG W41 Pro",
+            about: "LG W41 Pro is officially announced on February 22, 2021. The smartphone comes in a dimension of 9.3 mm.",
+            manufacter: "Manufactured by LG",
+            battery: "Battery Timing Approx 2.5 days",
+            price: "111,999 in PKR"
+        },
+    },
 
-    {
-        questtion: "In which year did Christopher Columbus discover America?",
-        a: 1492,
-        b: 1776,
-        c: 1620,
-        d: 1789,
-        answer: 1492,
-    }, 
+    Vivo: {
+        VivoX80: {
+            image: "images/vivo-x80.jpg",
+            name: "Vivo X80",
+            about: "There is a 50 MP main camera, with OIS and laser autofocus, a 12 MP 2X telephoto, and a 12 MP ultrawide.",
+            manufacter: "Manufactured by Vivo",
+            battery: "Battery Timing Approx 3 days",
+            price: "99,999 in PKR"
+        },
 
-    {
-        questtion: "Who painted the Mona Lisa?",
-        a: "Vincent van Gogh",
-        b: "Pablo Picasso",
-        c: "Leonardo da Vinci",
-        d: "Michelangelo",
-        answer: "Leonardo da Vinci",
-    }, 
+        VivoY27: {
+            image:  "images/vivo-y27.jpeg",
+            name: "Vivo Y27",
+            about: "Y27 is equipped with a vivo standard charger (power adapter 11V/4A), and supports up to 44W FlashCharge.",
+            manufacter: "Manufactured by Vivo",
+            battery: "Battery Timing Approx 3 days",
+            price: "89,999 in PKR"
+        },
+    },
 
-    {
-        questtion: "What is the chemical symbol of water?",
-        a: "H2O",
-        b: "W",
-        c: "H2",
-        d: "H2O2",
-        answer: "H2O",
-    }, 
+    Xiaomi: {
+        xiaomi10Pro: {
+            image:  "images/xiaomi-10-pro.webp",
+            name: "Xiaomi 10 Pro",
+            about: "Xiaomi 12 Pro Android smartphone. Announced Dec 2021. Features 6.73″ display, Snapdragon 8 Gen 1 chipset, 4600 mAh battery.",
+            manufacter: "Manufactured by Xiaomi",
+            battery: "Battery Timing Approx 2 days",
+            price: "69,999 in PKR"
+        },
 
-    {
-        questtion: "How many sides does a hexagon have?",
-        a: 4,
-        b: 6,
-        c: 5,
-        d: 9,
-        answer: 6,
-    }, 
+        Xiaomi13T: {
+            image: "images/xiaomi-13t.webp",
+            name: "Xiaomi 10 Pro",
+            about: "Xiaomi 13T Pro Android smartphone. Announced Dec 2021. Features 6.73″ display, Snapdragon 8 Gen 1 chipset, 4600 mAh battery.",
+            manufacter: "Manufactured by Xiaomi",
+            battery: "Battery Timing Approx 2 days",
+            price: "75,999 in PKR",
+           
+        },
+    },
 
-    {
-        questtion: "What is the national flower of Japan?",
-        a: "Tulip",
-        b: "Rose",
-        c: "Sun Flower",
-        d: "Cherry blossom",
-        answer: "Cherry blossom",
-    }, 
+    Google: {
+        GooglePixel7a: {
+            image: "images/google-pixel-7a.jpeg",
+            name: "Google Pixel 7a",
+            about: "The Pixel 7A has two rear cameras housed in a distinctive camera bar that spans then entire width of the phone",
+            manufacter: "Manufactured by Google",
+            battery: "Battery Timing Approx 2.5 days",
+            price: "206,50 in PKR",
+           
+        },
 
-    {
-        questtion: "Who is the author of The Great Gatsby?",
-        a: "F. Scott Fitzgerald",
-        b: "Ernest Hemingway",
-        c: "Mark Twain",
-        d: " Charles Dickens",
-        answer: "F. Scott Fitzgerald",
-    }, 
+        GooglePixel7Pro: {
+            image: "images/Google-Pixel-7-Pro.jpg" ,
+            name: "Google Pixel 7 Pro",
+            about: "the Pixel 7 Pro seems to have it all: a big, 6.7-inch display with a 120Hz refresh rate, a large 5,000mAh battery.",
+            manufacter: "Manufactured by Google",
+            battery: "Battery Timing Approx 3 days",
+            price: "106,500 in PKR",
+        },
+    },
 
-    {
-        questtion: " Which gas do plants release during photosynthesis?",
-        a: "O2",
-        b: "CO2",
-        c: "NH4",
-        d: "CH4",
-        answer: "O2",
-    }, 
+    Nokia: {
+        NokiaX20: {
+            image: "images/nokia-x20.jpeg",
+            name: "Nokia X20",
+            about: "Nokia X20 is built to last, and because you'll have it for a while, we knew it had to be good & 6700 mAh battery.",
+            manufacter: "Manufactured by Nokia",
+            battery: "Battery Timing Approx 4 days",
+            price: "105,500 in PKR",
+        },
 
-    {
-        questtion: "What is the largest planet in our solar system?",
-        a: "Earth",
-        b: "Venus",
-        c: "Jupiter",
-        d: "Mars",
-        answer: "Jupiter",
-    }, 
+        NokiaX10: {
+            image: "images/nokia-x10.jpeg",
+            name: "Nokia X10",
+            about: "Nokia X10 is built to last, and because you'll have it for a while, we knew it had to be good & 6700 mAh battery & as much more features you want like your favorite movies or music.",
+            manufacter: "Manufactured by Nokia",
+            battery: "Battery Timing Approx 3 days",
+            price: "100,500 in PKR",
+        },
+    },
 
-    {
-        questtion: "Who is the Greek god of the sea?",
-        a: " Zeus",
-        b: "Apollo",
-        c: "Hermes",
-        d: "Poseidon",
-        answer: "Poseidon",
-    }, 
-]
+    Realme: {
+        Realme9ProPlus: {
+            image: "images/realme-p-pr0-plus.jpeg",
+            name: "Realme 9 Pro Plus",
+            about: "The realme 9 Pro+ lets you have two 5G SIM cards running simultaneously. 5G connectivity also means you can download your favorite movies or music at lightning-fast speeds",
+            manufacter: "Manufactured by Realme",
+            battery: "Battery Timing Approx 2 days",
+            price: "90,500 in PKR",
+        },
 
-var index = 0;
-var score = 0;
-var counter;
+        Realme9i: {
+            image: "images/rralme-9i.jpeg",
+            name: "Realme 9i",
+            about: "The realme 9i lets you have two 4G SIM cards running simultaneously. 5G connectivity also means you can download your favorite movies or music at lightning-fast speeds & much more.",
+            manufacter: "Manufactured by Realme",
+            battery: "Battery Timing Approx 3 days",
+            price: "92,500 in PKR",
+        },
+    },
 
-function renderQuestion(){
-    var questions = document.getElementById("quizQuestion");
-    var options = document.getElementsByName("option");
-    var nextButton =document.getElementById("nextButton");
-    var countDown = document.getElementById("timer");
-    var timeValue = 15;
-    clearInterval(counter);
-    for (var i =0; i < options.length; i++) {
+    Infinix: {
+        InfinixZero30: {
+            image: "images/infinix-zero-30.jpg" ,
+            name: "Infinix Zero 30",
+            about: "Infinix Zero 30 Android smartphone. Announced Sep 2023. Features 6.78″ display,Dimensity 8020 chipset, 5000 mAh battery, 256 GB storage, 12 GB RAM & much more you want.",
+            manufacter: "Manufactured by Infinix",
+            battery: "Battery Timing Approx 3.5 days",
+            price: "99,500 in PKR",
+        },
 
-        if(options[i].checked) {
-            nextButton.disabled = true;
-            if(options[i].value === obj[index-1].answer) {
-              score++;
-            } 
+        InfinixGT10Pro: {
+            image:"images/infinix-GT-10-pro.jpeg" ,
+            name: "Infinix GT 10 Pro",
+            about: "Infinix GT 10 Pro Android smartphone. Announced Sep 2023. Features 6.78″ display,Dimensity 8020 chipset, 5000 mAh battery, 256 GB storage, 12 GB RAM & much more you want.",
+            manufacter: "Manufactured by Infinix",
+            battery: "Battery Timing Approx 4 days",
+            price: "110,500 in PKR",
+        },
+    },
+};
+
+var company = document.getElementById("company");
+var brand = document.getElementById("brand");
+var allMobiles = document.getElementById("allMobile");
+
+company.innerHTML = `<option>search company</option>`
+brand.innerHTML = `<option>search model</option>`
+
+for (var key in mobileCompanies) {
+   
+    company.innerHTML += `
+  <option value="${key}">${key.toUpperCase()}</option>`;
+  for (var key1 in mobileCompanies[key]) {
+            allMobiles.innerHTML += `
+            <div class="col mb-3">
+            <div class="card">
+                <img src=${mobileCompanies[key][key1].image} class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">${mobileCompanies[key][key1].name}</h5>
+                    <p class="card-text">${mobileCompanies[key][key1].about}</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">${mobileCompanies[key][key1].manufacter}</li>
+                    <li class="list-group-item">${mobileCompanies[key][key1].battery}</li>
+                    <li class="list-group-item">${mobileCompanies[key][key1].price}</li>
+                </ul>
+            </div>
+
+        </div>
+            `
+
         }
-      
-        if(!obj[index]) {
-            Swal.fire({
-                position: 'top-end',
-                icon: 'success',
-                title: `You scored ${score} out of 20`,
-                showConfirmButton: true,
-                
-              });
-            return;
-        }
-       
     }
 
-    function startTimer(time) {
-        counter = setInterval(timer, 1000);
-        function timer() {
-          countDown.textContent = time;
-          time--;
-          if (time < 0) {
-            clearInterval(counter);
-            renderQuestion();
-          }
-        }
-      }
 
+
+function dailyUpdate() {
+
+    brand.innerHTML = "";
+    brand.innerHTML = `<option>search model</option>`
+
+    for (var key in mobileCompanies[company.value]) {
+        console.log(mobileCompanies)
+        brand.innerHTML += `
+        <option value="${key}">${key.toUpperCase()}</option>`
+    }
+};
+
+function filterMobile(){
     
+    var mobileData = mobileCompanies[company.value][brand.value]
 
-    questions.innerHTML = `<h1>Simple Quiz</h1>
-        <div class="quiz">
-        <h2 style="margin:20px 4px" id="question">${obj[index].questtion}</h2>
-
-        <div class="answer-buttons">
-             
-        <div class="0ne">
-              <label><input type="radio" onclick="enableButton()" name ="option" value="${obj[index].a}">${obj[index].a}</label>
-              </div>
-
-              <div class="0ne">
-              <label><input type="radio" onclick="enableButton()" name ="option" value="${obj[index].b}">${obj[index].b}</label>
-              </div>
-              
-              <div class="0ne">
-              <label><input type="radio" onclick="enableButton()" name ="option" value="${obj[index].c}">${obj[index].c}</label>
-              </div>
-
-              <div class="0ne">
-              <label><input type="radio" onclick="enableButton()" name ="option" value="${obj[index].d}">${obj[index].d}</label>
-              </div>
+    console.log("mobileData",mobileData)
+    allMobiles.innerHTML = `
+    <div class="my-div col-12 mb-3">
+    <div class="card">
+        <img style = "height: 600px; width:100%" src="${mobileData.image}" class="card-img-top img-fluid" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">${mobileData.name}</h5>
+            <p class="card-text">${mobileData.about}</p>
         </div>
+         <ul class="list-group list-group-flush">
+             <li class="list-group-item">${mobileData.manufacter}</li>
+             <li class="list-group-item">${mobileData.battery}</li>
+             <li class="list-group-item">${mobileData.price}</li>
+         </ul>
+    </div>
 
-    </div>`
-
-    startTimer(timeValue);
-    //   clearInterval(counter);
-
-    // setTimeout(renderQuestion, 2000);
-    index++;
-}
-
-renderQuestion();
-
-
-
-function enableButton() {
-    nextButton.disabled = false;
-
-}  
-
-
-function redirection() {
-    window.location.href = "./form.html"
-}
-
-  function logOut() {
-
-   localStorage.clear();
-
-   setTimeout(redirection, 1000);
+</div>
+    `
 }
 
 
-// setTimeout(registerPage, 2000);
