@@ -1,0 +1,637 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.main-container {
+    padding: 0;
+   margin: 0;
+   width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    background-color:#0065c3;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.navbar-nav > .nav-item {
+    margin: 0px 20px;
+    color: #fff;
+}
+
+.container-fluid > img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin-right: 40px;
+} 
+
+.container-fluid > img :hover {
+    animation-duration: 0.2ms;
+
+}
+
+.btn {
+    display: inline-block;
+    font-size: 1em;
+    font-weight: bold !important;
+    margin-right: 20px;
+    height: 2.3em;
+    padding: 0.4em 1.85em;
+    border: 2px solid #fff;
+    border-radius: 1.8em;
+    background: transparent;
+    color: #fff;
+    font-family: Sofia Pro Black, Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.nav-item > a {
+    color: #fff;
+    font-weight:bold    ;
+    float: left;
+    margin-right: 2.75rem;
+    font-family: Sofia Pro Black, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: .875rem;
+    cursor: pointer;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+.pepsi-music {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    /* align-content: center; */
+    /* align-items: start; */
+    /* height: 202.051vw; */
+    /* max-height: 960px; */
+    width: 100%;
+    background: url(https://www.pepsi.com/en-us/uploads/images/apple-music/background.png) center center no-repeat;
+    background-size: cover
+} 
+
+.pepsi-music > img{
+    /* width: 63.281vw; */
+    margin-top: 100px;   
+    height: 53.125vw;
+    max-width: 649px;
+    max-height: 534px;
+    left: 0;
+    bottom: 0;
+    background-image: url(https://www.pepsi.com/en-us/uploads/images/apple-music/pzs-can-old@2x.png);
+    background-position: right bottom -80px;
+    background-size: auto 115%;
+}
+
+.pepsi-music-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;   
+    width: 50%;
+}
+
+
+.pepsi-music-one > button {
+    display: inline-block;
+    font-size: 1em;
+    height: 2.3em;
+    width: 170px;
+    font-weight: bold;
+    margin-top: 40px;
+    padding: 0.4em 1.85em;
+    border: 2px solid #fff;
+    border-radius: 1.8em;
+    background: transparent;
+    color: #fff;
+    font-family: Sofia Pro Black, Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-transition: background-color .1s ease-out, color .1s ease-out;
+    transition: background-color .1s ease-out, color .1s ease-out;
+
+}
+
+.pepsi-music-one > img {
+    margin-top: 100px;
+    max-width: 488px;
+    max-height: 306px;
+}
+
+    .pepsi-music-one > p{
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-size: .7rem;
+        width: 100%;
+        max-width: 422px;
+        color: #fff ;
+        margin-top: 60px;
+}
+
+.two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: black;
+    height: 600px;
+    width: 100%;
+}
+
+.sec-one {
+    flex: 1;
+    position: relative;
+    background-image: url(https://www.pepsi.com/en-us/uploads/images/pzs-new-taste/pzs-can-nobug-desktop.png);
+    background-size: auto 115%;
+    background-position: right -76px bottom;
+    height: 100%;
+    width: 60vw !important;
+    max-height: unset;
+    background-repeat: no-repeat;
+}
+.sec-one > img {
+    position: absolute;
+    text-align: center;
+    left: 600px;
+    top: 20px;
+
+}
+
+.sec-two {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* flex-wrap: wrap;
+    height: 600px; */
+    width: 486px;
+    /* background-color: black;
+    border: 2px solid white; */
+}
+
+.sec-two :nth-child(2) {
+    margin-top: 300px;
+}
+.sec-two > img {
+    position: absolute;
+    width: 486px;
+    top: 65px;
+    right: 300px;
+}
+ 
+.pepsi-nitro {
+    background-image: url(https://www.pepsi.com/en-us/uploads/images/nitro/Tablet_Background.png);
+    background-image: url(https://www.pepsi.com/en-us/uploads/images/nitro/Desktop_Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+
+}
+
+.nitro-pepsi {
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+}
+
+.nitro-pepsi :nth-child(2) {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    display: block;
+    font-weight: bold !important;
+    font-size: 2.1em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.nitro-pepsi :nth-child(3) {
+    font-weight: bold !important;
+    align-self: center;
+    width: 200px;
+    padding: 0.4em 1.85em;
+    border: 2px solid #fff;
+    border-radius: 1.8em;
+    background: transparent;
+    color: #fff;
+    font-family: Sofia Pro Black, Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+ .four {
+    display: inline-block;
+    position: relative;
+    display: inline-block;
+     background-size: 163%;
+     margin: 0;
+     padding: 0;
+     width: 100%;
+     height: 700px;
+     background-color: #0065c3;
+     background-position: cover; 
+    }
+    
+    .four > img {
+        position: relative;
+     /* margin: 10px 10px; */
+     height: 800px;
+    position: absolute;
+    right: 0;
+    width: 70%;
+    height: 700px;
+    background-position: cover;
+    background-color: #0065c3;
+ }
+
+ .promo-video-container {
+    position: absolute;
+    background-color: #0065c3;
+    height: 700px;
+    top: -1px;
+    left: 0;
+    /* width: 34%; */
+    /* margin-top: 90px; */
+    /* display: flex; */
+    align-items: center;
+    justify-content: column;
+    height: inherit;
+    /* border: 2px solid black; */
+ }
+
+ .promo-video-container-one {
+    margin: 40px 30px;
+ }
+
+ .promo-video-container-one > img {
+    position: relative;
+    height: 250px;
+    /* width: 200px; */
+ }
+
+ .promo-video-container-one > h3{
+    position: absolute;
+    font-weight: bold !important;
+    text-transform: uppercase;
+    color: white;
+    width: 500px;
+    left: 80px;
+    background-color: #0b1c6200;
+
+
+ }
+
+ .promo-video-container-two {
+    margin: 40px 20px;
+
+    
+ }
+
+ .promo-video-container-two > img {
+    position: relative;
+    height: 250px;
+    /* width: 200px; */
+ }
+
+ .promo-video-container-two > h3{
+    position: absolute;
+    font-weight: bold !important;
+    text-transform: uppercase;
+    color: white;
+    width: 500px;
+    left: 40px;
+    background-color: #0b1c6200;
+ }
+
+ .five {
+    position: relative;
+    margin: 0px !important;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background-color: #0065c3;
+    padding: 0;
+ }
+
+ .five :nth-child(1) {
+    position: absolute;
+    /* height: auto; */
+    height: inherit;
+    width: 60%;
+    right: 0;
+ }
+
+ .five :nth-child(2) {
+    position: absolute;
+    height: 300px;
+    top: 40px;
+    left: 50px;
+    /* position: absolute; */
+    /* height: auto; */
+    /* left: 20px; */
+ }
+
+ .five :nth-child(3) {
+    height: auto;
+    width: 100%;
+ }
+
+ .five :nth-child(4) {
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    height: 100px;
+    width: 500px;
+ }
+
+ .six {
+    border: 2px solid black;
+   height: 800px;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+ }
+
+ .hero__video {
+    border: 2px solid black;
+    height: auto;
+    width: 100%;
+    border: 2px solid black;
+
+ }
+
+ .seven {
+    position: relative;
+    /* display: inline-block; */
+    margin: 0;
+    padding: 0;
+    height: 900px;
+    width: 100%;
+    background-color: #0065c3;
+ }
+
+ .seven :nth-child(1) {
+    position: absolute;
+    left: 90px;
+    top: 90px;
+    height: 800px;
+    width: 900px;
+ }
+
+ .seven :nth-child(2) {
+    position: absolute;
+    right: 150px;
+    top: 180px;
+    height: 500px;
+    width: 600px;
+ }
+
+ .eight {
+    display: flex;
+    justify-content: center;
+    height: 550px;
+    width: 100%;
+    background-image: url("images/eight-bck-img.png");
+    background-color: #0065c3;
+ }
+
+  .promotion__title {
+      font-size: 3.75rem;
+    width: 70%;
+    margin-top: 40px;
+
+      
+    }
+    
+    .promotion__title__line {
+     font-weight: 900;
+    display: block;
+    box-sizing: border-box;
+ }
+
+ .promotion-title-container{
+    background-color: #0065c3;
+
+    width: 40%;
+    height: 500px;
+    display: flex;
+    align-items: flex-start;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+ }
+
+ .promotion__body{
+  font-size:20px;
+  width: 70%;
+ /* margin: 1em 0; */
+ margin-top: 20px;
+ }
+
+ .eight-btn {
+    background-color: #0065c3;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 700;
+    height: 3.3em;
+    padding: 0.4em 1.85em;
+    border: 2px solid #fff;
+    border-radius: 1.8em;
+    background: transparent;
+    color: #fff;
+    font-family: Sofia Pro Black, Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-transition: background-color .1s ease-out, color .1s ease-out;
+    transition: background-color .1s ease-out, color .1s ease-out;
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+.promotion-container-right > img {
+    background-color: #0065c3;
+    height: 400px;
+    width: 700px;
+    margin-top: 40px;
+}
+
+.nine {
+    position: relative;
+    height: 400px;
+    width: 100%;
+}
+
+ .social__title {
+    font-size: 60px;
+    margin-top: 20px;
+    text-align: center;
+    /* background-color: #0065c3; */
+    color: #0065c3;
+    font-family: Cervo Neue Black, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight:bold !important;
+    
+}
+
+.nine-imgs {
+    position: absolute;
+    display: flex;
+    width: 81%;
+    height: 300px;
+    /* border: 2px solid black; */
+    margin: 0px 160px;
+    bottom: 0;
+
+}
+
+.ten {
+    height: 400px;
+    width: 100%;
+    background-color:#0065c3 ;
+}
+
+/* .ten > img {
+    height: 100px;
+    width: 100px;
+} */
+
+.ten-sub {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+}
+
+.list-items {
+list-style: none;
+text-transform: uppercase;
+color: #fff;
+font-size: 20px;
+font-weight: bold !important;
+
+}
+
+.list-items-conyainer {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-btn {
+    background-color: #0065c3;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 700;
+    height: 3.3em;
+    padding: 0.4em 1.85em;
+    border: 2px solid #fff;
+    border-radius: 1.8em;
+    background: transparent;
+    color: #fff;
+    font-family: Sofia Pro Black, Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-transition: background-color .1s ease-out, color .1s ease-out;
+    transition: background-color .1s ease-out, color .1s ease-out;
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+.last-footer-item{
+display: block;
+}
+
+.imgs-div > img {
+    margin: 10px 2px;
+    height: 50px;
+    width: 50px;
+}
+
+@media only screen and (max-width: 412px) {
+    .pepsi-music {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        /* background: url(https://www.pepsi.com/en-us/uploads/images/apple-music/background.png) center center no-repeat; */
+        background-size: cover
+    } 
+
+    .pepsi-music > img{
+        /* width: 63.281vw; */
+        margin-top: 100px;   
+        height: 300px;
+        /* max-width:300px;
+        max-height: 300px; */
+        left: 20;
+        bottom: 0;
+        /* background-image: url(https://www.pepsi.com/en-us/uploads/images/apple-music/pzs-can-old@2x.png); */
+        background-position: right bottom -80px;
+        background-size: auto 115%;
+    }
+
+    .pepsi-music-one {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 40%;   
+        width: 100%;
+}
+.pepsi-music-one > img {
+    margin-top: 100px;
+    max-width: 308px;
+    max-height: 300px;
+}
+.pepsi-music-one > p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 2em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: .7rem;
+    width: 80%;
+    max-width: 422px;
+    color: #fff ;
+    margin-top: 60px;
+}
+    
+}
