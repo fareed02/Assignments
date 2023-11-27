@@ -65,7 +65,7 @@ async function checkWether(city) {
             mainPic.src = "images/haze.png";
         } 
         else if(data.weather[0].main === "Smoke") {
-            mainPic.src = "images/smoke.png";
+            mainPic.src = "images/images-cloud.jpeg";
         } 
         
         else {
